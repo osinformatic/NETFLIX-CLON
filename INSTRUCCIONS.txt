@@ -1,0 +1,24 @@
+=== NETFLIX CLONE MULTIPLATAFORMA (WEB, ANDROID, SMART TV) ===
+
+Aquest projecte està preparat amb React, Tailwind CSS i Capacitor per compilar-se tant a la web, dispositius mòbils (APK) com Smart TVs (control per comandament gràcies a la navegació espacial).
+
+INSTRUCCIONS DE MARXA RÀPIDA (LOCAL / WEB):
+1. Obre una terminal dins d'aquesta carpeta des圧縮ada.
+2. Executa: npm install
+3. Executa: npm run dev
+4. Obre el navegador a l'adreça que t'indiqui (ex: http://localhost:5173). Pots provar el comandament usant les fletxes del teclat del teu ordinador i la tecla ENTER!
+
+INSTRUCCIONS PER GENERAR APK (ANDROID / ANDROID TV):
+1. Assegura't de tenir instal·lat Android Studio i Node.js.
+2. Compila el projecte web:
+   npm run build
+3. Afegeix el mòdul d'Android de Capacitor:
+   npx cap add android
+4. Copia el projecte dins de l'estructura mòbil:
+   npx cap sync android
+5. Obre la carpeta 'android' que s'ha generat fent servir Android Studio.
+6. A la barra superior d'Android Studio, ves a: Build > Build Bundle(s) / APK(s) > Build APK(s).
+7. Un cop finalitzat, fes clic a 'Locate' per obtenir el teu fitxer '.apk'.
+
+NOTA SOBRE L'API:
+S'ha inclòs una clau temporal a src/requests.js. Es recomana crear el teu propi compte gratuït a themoviedb.org i canviar-la per evitar talls de servei.

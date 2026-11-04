@@ -1,0 +1,8 @@
+{
+  "appId": "com.clone.netflixtv",
+  "appName": "Netflix Clone",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
